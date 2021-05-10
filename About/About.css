@@ -1,0 +1,105 @@
+body {
+    overflow-x: hidden;
+    padding-top: 55px;
+}
+
+
+.sidebar.collapse ,
+.sidebar.collapsing,
+.sidebar.collapsing + .col {
+    transition: .18s linear;
+    z-index: 1050;
+    left: -25%;
+    height: auto !important;
+}
+
+
+.sidebar.collapse.show,
+.sidebar.collapse.show + .col {
+    transition: .18s linear;
+    left: 0;
+}
+
+.Dark-color{
+    background-color: #F9F9F9;
+}
+
+
+.clo{
+    background-color:white;
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+#junbot{
+    margin-bottom: 0;
+}
+
+#img_prof{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.jum_cus{
+    color: white;
+    background-image: url("https://wallpaperplay.com/walls/full/a/e/7/153694.jpg");
+    background-repeat:no-repeat;
+
+    padding-bottom:0; 
+}
+.jum_cus_sec{
+    color: rgb(0, 0, 0);
+    margin-bottom: 0; 
+  
+}
+
+
+.cen{
+    text-align: center;
+}
+.float{
+    float: left;
+}
+
+.bullet_siz{
+    width:45px;
+}
+
+
+.col1{
+    background-color:#677a8d;
+}
+.col2{
+    background-color: rgb(228, 218, 218);
+}
+
+.body_blue_cont{
+    color: white;
+    margin-top: 50px;
+}
+
+.body_white_cont{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+#profile{
+    margin-bottom:0 ;
+}
+
+
+.cont_pad{
+    padding: 10px;
+    padding-left: 50px;
+}
+
+#qrlogo{
+    width:200px;
+}
+
+.deco{
+    text-decoration: none;
+    color: black;
+}

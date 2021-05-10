@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+    padding-top: 55px;
+}
+
+.sidebar.collapse.show,
+.sidebar.collapse.show + .col {
+    transition: .18s linear;
+    left: 0;
+}
+
+.sidebar.collapse ,
+.sidebar.collapsing,
+.sidebar.collapsing + .col {
+    transition: .18s linear;
+    z-index: 1050;
+    left: -25%;
+    height: auto !important;
+}
+
+.Dark-color{
+    background-color: #F9F9F9;
+    height: 100vh;
+}
+
+
+.clo{
+    background-color:white;
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+
+.grow :hover{
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    transition: 1s ease;
+}
+
+
