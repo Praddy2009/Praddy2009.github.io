@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: praddyum.me
+Token: deb3b918f569930cdf7e3edc3b0822d044309cf4ac4923f92bb900b84a90c319
