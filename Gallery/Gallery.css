@@ -1,0 +1,102 @@
+body {
+    overflow-x: hidden;
+    padding-top: 55px;
+}
+
+.sidebar.collapse.show,
+.sidebar.collapse.show + .col {
+    transition: .18s linear;
+    left: 0;
+}
+
+.sidebar.collapse ,
+.sidebar.collapsing,
+.sidebar.collapsing + .col {
+    transition: .18s linear;
+    z-index: 1050;
+    left: -25%;
+    height: auto !important;
+}
+
+.Dark-color{
+    background-color: #F9F9F9;
+}
+
+
+.clo{
+    background-color:white;
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+
+.midd{
+    margin-top: 10vh;
+}
+
+
+/*Gallery Code*/
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.pad{
+    padding: 30px;
+    
+}
+
+.inline{
+    display: inline-block;
+}
+
